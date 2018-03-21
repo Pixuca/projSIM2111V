@@ -10,7 +10,7 @@ screen = pygame.display.set_mode((800, 600))
 bg = pygame.image.load(bg).convert()
 end = False
 
-distX, distY = 800 / 9, 600 / 9
+distX, distY = 800 / 9, 600 / 6
 distT = (distX + distY)/2
 print("A cada %.2f pixels se tem 1 (um) metro." % distT)
 
