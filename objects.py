@@ -1,7 +1,7 @@
 import random
 class robo:
-    x = random.randint(0, 800)
-    y = random.randint(0, 600)
+    x = random.randint(300, 600)
+    y = random.randint(500, 600)
     color = (153, 51, 0)
 
 class bola:
@@ -11,7 +11,7 @@ class bola:
     color = (255, 255, 0)
 
 class line:
-    xi = robo.x
+    xi = robo.x+0.5
     yi = robo.y
     xf = bola.x
     yf = bola.y
